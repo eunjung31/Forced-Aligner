@@ -10,5 +10,4 @@ Forced alignment is a technique of generating time-aligned orthographic transcri
 * (Orthographic transcription)
 
 * Pronunciation dictionary(Acoustic model)
-  : for looking up phones for words
   : can be generated using G2P models
