@@ -7,7 +7,7 @@ Forced alignment is a technique of generating time-aligned orthographic transcri
 # Requirements
 * Audio file
 
-* (Orthographic transcription)
+* Orthographic transcription
 
 * Pronunciation dictionary(Acoustic model)
   : can be generated using G2P models
