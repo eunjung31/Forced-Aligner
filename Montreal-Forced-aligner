@@ -1,0 +1,15 @@
+# 1. If you don't have a dictionary for your data, you should first make a dictionary.
+
+.\bin\mfa_generate_dictionary.exe g2p_model_path corpus_directory output_path
+
+EX) .\bin\mfa_generate_dictionary.exe .\korean_g2p.zip .\data\ .\test\output
+
+
+# 2. With the dictionary from #1, you can now force-align using 'dictioanry' from #1 & your audio files
+
+.\bin\mfa_align.exe  corpus_directory dictionary_path acoustic_model_path output_directory
+
+EX) .\bin\mfa_align.exe .\data .\test\output .\pretrained_models\korean.zip .\test
+
+reference: 
+https://montreal-forced-aligner.readthedocs.io/en/latest/g2p_dictionary_generating.html#use
