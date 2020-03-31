@@ -1,13 +1,12 @@
-# Forced-Aligner
+## Forced-Aligner
 Descriptions &amp; Summary of reknown forced aligners
 
-# What is forced alignment?
+## What is forced alignment?
 Forced alignment is a technique of generating time-aligned orthographic transcription with audio file. 
 
-# Requirements
-* Audio file
+## Requirements
+* Audio files
 
-* Orthographic transcription
+* Corresponding orthographic transcriptions
 
-* Pronunciation dictionary(Acoustic model)
-  : can be generated using G2P models
+* Pronunciation dictionary
